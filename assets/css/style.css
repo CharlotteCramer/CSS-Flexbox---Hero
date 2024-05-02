@@ -14,13 +14,62 @@ html {
   background-size: cover;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
-h1 {
+#hero-simple h1 {
   color: white;
   font-size: 5.8rem;
 }
 p {
   color: white;
   font-size: 1.8rem;
+  width: 100%;
+  max-width: 550px;
+  text-align: center;
+}
+#simple-with-botton {
+  min-height: 600px;
+  background-image: url(/assets/Hero-bg2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+#simple-with-botton h1 {
+  color: white;
+  max-width: 760px;
+  text-align: center;
+
+  font-size: 5.8rem;
+}
+p {
+  color: white;
+  font-size: 1.8rem;
+  width: 100%;
+  max-width: 550px;
+  max-height: 48px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+.btn {
+  font-size: 16px;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn-round {
+  background-color: #34ffc8;
+  border-radius: 20px;
+}
+.btn-round:hover {
+  background-color: #fff;
+  color: black;
 }
